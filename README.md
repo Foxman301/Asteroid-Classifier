@@ -1,2 +1,8 @@
 # Asteroid-Classifier
-Hold
+The task for this project was to choose a splitting approach to a decision tree algorithm and implement it in Python.
+
+I chose a gradient boosting classifier because it's a group of machine learning algorithms that use weak learning models to create a strong predictive classifier. The most similar a gradient boosting classifier algorithm would be to the ones we were shown would be the classification and regression tree (CART) algorithm if we chose to use something different.
+
+I chose this dataset of objects that went by earths orbit because it is not only interesting; but shows possibility of being used in a distributed environment with a supervised machine learning algorithm, like a decision tree, to help decide whether an object is hazardous or if its trajectory may change depending on historical data of objects of similar size and such. It would essentially be used as a way to assist scientists to label whether an object floating in space is dangerous so they can take the proper precautions if it is. The dataset was pulled from this URL https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?resource=download. We were asked to prune the dataset based on GINI impurity, Entopy, or other node purity classifiers. I didn’t think pruning the dataset was necessary because our metrics calculated after training the data were already quite accurate as measured by the Area under the Curve (AUC) result.
+
+This was my week 5 and final assignment in my Machine Learning course and I think it was a good capstone to the things we learned and applying it to a dataset of our choice.
